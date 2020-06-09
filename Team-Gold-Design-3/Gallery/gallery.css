@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+.navigation{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ADADAD;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    cursor: pointer;
+}
+.logo .logo-img{
+    width: 30px;
+    height: 30px;
+    background: #C4C4C4;
+    border-radius: 100%;
+
+}
+.navigation .navigation-links{
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navigation .navigation-links li{
+    width: 100px;
+    height: 30px;
+    background: #C4C4C4;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-links li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.navigation-links li a:hover{
+    border-bottom: 1px solid rgb(2, 23, 100);
+}
+
+.reservation{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C4C4C4;
+}
+
+.reservation a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.reservation a:hover{
+    border-bottom: 1px solid rgb(2, 23, 100);
+}
+
+.head-container{
+    margin-bottom: 50px;
+}
+
+.media{
+    width: 100%;
+}
+
+/* gallery styles */
+
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gallery-restaurant{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.gallery-restaurant .restaurant-img{
+    width: 655px;
+    height: 639px;
+    border-radius: 30%;
+    object-fit: cover;
+    margin-left: 100px;
+}
+
+.gallery-container .details{
+    width: 311px;
+    height: 289px;
+    background:rgba(2, 23, 100, 0.88);
+    padding: 40px 30px;
+    margin-left: -20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.gallery-container .details p{
+    font-size: .8em;
+    text-align: justify;
+}
+
+
+/* gallery leisure style */
+
+.gallery-leisure{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.gallery-leisure .leisure-img{
+    width: 655px;
+    height: 639px;
+    border-radius: 30%;
+    object-fit: cover;
+}
+.gallery-container .details{
+    margin-right: -20px;
+    z-index: 1;
+}
+
+/* gallery spa style */
+
+.gallery-spa{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.gallery-spa .spa-img{
+    width: 655px;
+    height: 639px;
+    border-radius: 30%;
+    object-fit: cover;
+}
+
+
+
+/* relaxation center styles */
+
+.gallery-center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.gallery-center .center-img{
+    width: 655px;
+    height: 639px;
+    border-radius: 30%;
+    object-fit: cover;
+}
